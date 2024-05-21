@@ -1,46 +1,46 @@
 doctype html
-html lang="en"
+html(lang="en")
 	head
-		/ Essentials
-		meta charset="utf-8"
-		meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		// Essentials
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
 		title ztext.js | 3D Typography for the Web
-		meta name="description" content="Easy to implement, 3D typography for any website and every font."
-		/ Icons
-		link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png"
-		link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png"
-		link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png"
-		link rel="mask-icon" color="#09101d" href="img/icon/safari-pinned-tab.svg"
-		/ Styles
-		link href="css/style.min.css" rel="stylesheet"
-		/ Fonts
-		link href="https://fonts.googleapis.com/css2?family=Cousine&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"
+		meta(name="description" content="Easy to implement, 3D typography for any website and every font.")
+		// Icons
+		link(rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png")
+		link(rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png")
+		link(rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png")
+		link(rel="mask-icon" color="#09101d" href="img/icon/safari-pinned-tab.svg")
+		// Styles
+		link(href="css/style.min.css" rel="stylesheet")
+		// Fonts
+		link(href="https://fonts.googleapis.com/css2?family=Cousine&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet")
 	body
 		header.header#header
 			.wrapper
 				.container
 					h1 
-						span data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg" z
+						span(data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg") z
 					h1
-						span data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg" t
+						span(data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg") t
 					h1
-						span data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg" e
+						span(data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg") e
 					h1
-						span data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg" x
+						span(data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg") x
 					h1
-						span data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg" t
+						span(data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg") t
 					h1
-						span data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg" .
+						span(data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg") .
 					h1
-						span data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg" j
+						span(data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg") j
 					h1
-						span data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg" s
+						span(data-z="true" data-z-depth=".15em" data-z-event="pointer" data-z-eventRotation="40deg") s
 					h2 Easy to implement, 3D typography for the web. Works with every font.
 					.share.twitter-shade
-						a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="ztext.js - Easy to implement, 3D typography for the web. Works with every font." data-url="https://bennettfeely.com/ztext" data-related="bennettfeely" data-show-count="false" Tweet
-						script async="true" src="https://platform.twitter.com/widgets.js" charset="utf-8"
+						a(href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="ztext.js - Easy to implement, 3D typography for the web. Works with every font." data-url="https://bennettfeely.com/ztext" data-related="bennettfeely" data-show-count="false") Tweet
+						script(async="true" src="https://platform.twitter.com/widgets.js" charset="utf-8")
 					.share.facebook-share
-						.fb-like data-href="https://bennettfeely.com/ztext" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"			
+						.fb-like(data-href="https://bennettfeely.com/ztext" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true")
 		main.main
 			.wrapper
 				.split
@@ -48,10 +48,10 @@ html lang="en"
 						section.download#download
 							.container
 								h2 Download
-								a.button.split-item href="js/ztext.min.js" 
+								a.button.split-item(href="js/ztext.min.js") 
 									strong ztext.min.js 
 									| &mdash; Minified 3.8 kb
-								.repo data-repo="bennettfeely/ztext"
+								.repo(data-repo="bennettfeely/ztext")
 									.repo-box
 										.repo-title
 											<a class="repo-author" href="https://github.com/bennettfeely">bennettfeely</a> / <a class="repo-name" href="https://github.com/bennettfeely/ztext">ztext</a>
@@ -67,9 +67,9 @@ html lang="en"
 								.tip-jar-wrapper
 									label.tip-jar
 										| $
-										input.tip type="text"  inputmode="numeric" placeholder="10"
-									a.tip-button.button href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9YZX9KJVUDWXW&currency_code=USD&amount=10&item_name=ztext.js&source=url" 
-										img src="img/paypal.svg" width="124" height="33" alt="PayPal"
+										input.tip(type="text"  inputmode="numeric" placeholder="10")
+									a.tip-button.button(href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9YZX9KJVUDWXW&currency_code=USD&amount=10&item_name=ztext.js&source=url") 
+										img(src="img/paypal.svg" width="124" height="33" alt="PayPal")
 										strong Tip
 								p Are you using ztext and happy with it? Your kind support keeps open-source JS libraries like this free for others.
 			section.initialization#initialization
@@ -86,7 +86,7 @@ html lang="en"
 									li <a href="#vue-init">Vue JS</a> <span class="new">New</span>
 							.split-item
 								h3 How it works
-								p Ztext gives the illusion of volume by creating layers from an HTML element. There's no need to spend hours fiddling with <code class="light"><span class="red-code">&lt;canvas&gt;</span></code> or forcing users to download multi-megabyte WebGL libraries. With ztext, content remains fully selectable and accessible.
+								p Ztext is editing text gives the illusion of volume by creating layers from an HTML element. There's no need to spend hours fiddling with <code class="light"><span class="red-code">&lt;canvas&gt;</span></code> or forcing users to download multi-megabyte WebGL libraries. With ztext, content remains fully selectable and accessible.
 								p <a class="external" href="https://caniuse.com/#feat=transforms3d">Over 98% of users</a> use a web browser that supports the CSS <code class="light"><span class="yellow-code">transform-style</span></code> property, which ztext needs to work. In unsupported browsers, ztext gracefully turns off.						
 			section.html-init#html-init
 				.wrapper
@@ -116,7 +116,7 @@ html lang="en"
 							.split-item
 								.preview
 									h3 Preview
-									h1.x-large data-z="true" data-z-layers="3" data-z-depth=".5em" A
+									h1.x-large(data-z="true" data-z-layers="3" data-z-depth=".5em") A
 								p The duplicate layers are visible to users but ztext makes them hidden from screen readers and other forms of user interaction.
 			section.js-init#js-init
 				.wrapper
@@ -142,16 +142,16 @@ html lang="en"
 						.split
 							.split-item
 								p Check out <a href="https://github.com/snettah/react-ztext">react-ztext</a> by Safi Nettah (<a href="https://github.com/snettah">snettah</a>).
-								.repo data-repo="snettah/react-ztext"
+								.repo(data-repo="snettah/react-ztext")
 									.repo-box
 										.repo-title
 											<a class="repo-author" href="https://github.com/snettah">snettah</a> / <a class="repo-name" href="https://github.com/snettah/react-ztext">react-ztext</a>
-										a.repo-meta href="https://github.com/snettah/react-ztext"
+										a.repo-meta(href="https://github.com/snettah/react-ztext")
 											span.repo-stars 5 stars
 											span.repo-license MIT
 											span.repo-updated 3 months ago
 							.split-item
-								a.code-preview href="https://github.com/snettah/react-ztext"
+								a.code-preview(href="https://github.com/snettah/react-ztext")
 									pre.dark
 										h3 React
 										code
@@ -181,16 +181,16 @@ html lang="en"
 						.split
 							.split-item
 								p Check out <a href="https://github.com/snettah/vue-ztext">vue-ztext</a> by <a href="https://github.com/Namchee">Namchee</a>.
-								.repo data-repo="Namchee/vue-ztext"
+								.repo(data-repo="Namchee/vue-ztext")
 									.repo-box
 										.repo-title
 											<a class="repo-author" href="https://github.com/Namchee">Namchee</a> / <a class="repo-name" href="https://github.com/Namchee/vue-ztext">vue-ztext</a>
-										a.repo-meta href="https://github.com/Namchee/vue-ztext"
+										a.repo-meta(href="https://github.com/Namchee/vue-ztext")
 											span.repo-stars 1 star
 											span.repo-license MIT
 											span.repo-updated 4 weeks ago
 							.split-item
-								a.code-preview href="https://github.com/Namchee/vue-ztext"
+								a.code-preview(href="https://github.com/Namchee/vue-ztext")
 									pre.dark
 										h3 Vue
 										code
@@ -212,7 +212,7 @@ html lang="en"
 							.split-item
 								pre.dark
 									h3 CSS
-									code#copy-2
+									code#copy-2.
 										<span class="red-code">h1</span> {
 										<br>   <span class="yellow-code">font</span>: <span class="orange-code">bold</span> <span class="orange-code">5em</span> <span class="green-code">"Georgia"</span>, <span class="orange-code">serif</span>;
 										<br>   <span class="yellow-code">color</span>: <span class="aqua-code">#90a4ae</span>;<span class="dot" style="background:#90a4ae"></span>
@@ -223,7 +223,7 @@ html lang="en"
 										<br>   <span class="gray-code">/* Tip: Apply CSS transforms here */</span>
 										<br>   <span class="gray-code">/* rotateX() == up/down */</span>
 										<br>   <span class="gray-code">/* rotateY() == left/right */</span>
-										<br>   <span class="yellow-code">transform</span>: <span class="blue-code">rotateX</span>(<span class="orange-code">15deg</span>) <span class="blue-code">rotateY</span>(<span class="orange-code">-30deg</span>);
+										<br><span class="yellow-code">transform</span>: <span class="blue-code">rotateX</span>(<span class="orange-code">15deg</span>) <span class="blue-code">rotateY</span>(<span class="orange-code">-30deg</span>);
 										<br>}
 										<br>
 										<br><span class="red-code">.z-layer:not(:first-child)</span> {
@@ -231,7 +231,7 @@ html lang="en"
 										<br>}
 										.menu.menu-2.right-align
 							.split-item.preview.styling-example-primary
-								h1.large data-z="true" CSS
+								h1.large(data-z="true") CSS
 			section.more#more
 				.wrapper
 					.container
@@ -240,9 +240,9 @@ html lang="en"
 						.split
 							.split-item
 								.toggle-menu
-									button.toggle data-show="svg" SVG
-									button.toggle data-show="img" Image
-									button.toggle.is-on data-show="emoji" Emoji
+									button.toggle(data-show="svg") SVG
+									button.toggle(data-show="img") Image
+									button.toggle.is-on(data-show="emoji") Emoji
 								pre.dark
 									h3 HTML
 									.tab.svg-code-tab
@@ -271,23 +271,23 @@ html lang="en"
 										<br>}
 							.split-item.preview
 								button.button.pause Pause
-								span.svg-code-example data-z="true" data-z-layers="15" data-z-depth="50px"
-									svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"
-										path d="M153.62 301.59c94.34 0 145.94-78.16 145.94-145.94 0-2.22 0-4.43-.15-6.63A104.36 104.36 0 00325 122.47a102.38 102.38 0 01-29.46 8.07 51.47 51.47 0 0022.55-28.37 102.79 102.79 0 01-32.57 12.45 51.34 51.34 0 00-87.41 46.78A145.62 145.62 0 0192.4 107.81a51.33 51.33 0 0015.88 68.47A50.91 50.91 0 0185 169.86v.65a51.31 51.31 0 0041.15 50.28 51.21 51.21 0 01-23.16.88 51.35 51.35 0 0047.92 35.62 102.92 102.92 0 01-63.7 22 104.41 104.41 0 01-12.21-.74 145.21 145.21 0 0078.62 23" stroke="#1da1f2" stroke-width="10px" fill="none"
-								span.img-code-example data-z="true" data-z-depth="40px"
-									img src="img/grace.jpg" width="500" height="400" alt="Photo of Grace"
-								span.emoji-code-example data-z="true" data-z-layers="20" data-z-depth="50px" 😂🔥🍔
+								span.svg-code-example(data-z="true" data-z-layers="15" data-z-depth="50px")
+									svg(width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400")
+										path(d="M153.62 301.59c94.34 0 145.94-78.16 145.94-145.94 0-2.22 0-4.43-.15-6.63A104.36 104.36 0 00325 122.47a102.38 102.38 0 01-29.46 8.07 51.47 51.47 0 0022.55-28.37 102.79 102.79 0 01-32.57 12.45 51.34 51.34 0 00-87.41 46.78A145.62 145.62 0 0192.4 107.81a51.33 51.33 0 0015.88 68.47A50.91 50.91 0 0185 169.86v.65a51.31 51.31 0 0041.15 50.28 51.21 51.21 0 01-23.16.88 51.35 51.35 0 0047.92 35.62 102.92 102.92 0 01-63.7 22 104.41 104.41 0 01-12.21-.74 145.21 145.21 0 0078.62 23" stroke="#1da1f2" stroke-width="10px" fill="none")
+								span.img-code-example(data-z="true" data-z-depth="40px")
+									img(src="img/grace.jpg" width="500" height="400" alt="Photo of Grace")
+								span.emoji-code-example(data-z="true" data-z-layers="20" data-z-depth="50px") 😂🔥🍔
 			section.options#options
 				.wrapper
 					.container.option.depth-option#depth
 						h2 Options
 						.split
 							.split-item.preview
-								h1.medium data-z="true" 1rem
-								h1.medium data-z="true" data-z-depth="60px" data-z-layers="30" 60px
+								h1.medium(data-z="true") 1rem
+								h1.medium(data-z="true" data-z-depth="60px" data-z-layers="30") 60px
 							.split-item
 								h3
-									a href="#depth" depth
+									a(href="#depth") depth
 									small.param CSS length value
 								p
 									| The depth of the effect on the z-axis. Accepts any valid CSS length value except for %. Default: 
@@ -296,11 +296,11 @@ html lang="en"
 					.container.option.layers-option#layers
 						.split
 							.split-item.preview
-								h1.large data-z="true" data-z-layers="10" data-z-depth=".25em" 10
-								h1.large data-z="true" data-z-depth=".5em" data-z-layers="2" 2
+								h1.large(data-z="true" data-z-layers="10" data-z-depth=".25em") 10
+								h1.large(data-z="true" data-z-depth=".5em" data-z-layers="2") 2
 							.split-item
 								h3
-									a href="#layers" layers
+									a(href="#layers") layers
 									small.param integer
 								p
 									| Number of layers that make up the effect. Default: 
@@ -309,12 +309,12 @@ html lang="en"
 					.container.option.perspective-option#perspective
 						.split
 							.split-item.preview.vertical
-								h1.small data-z="true" data-z-perspective="none" none
-								h1.small data-z="true" data-z-perspective="100px" 80px
-								h1.small data-z="true" data-z-perspective="500px" 500px
+								h1.small(data-z="true" data-z-perspective="none") none
+								h1.small(data-z="true" data-z-perspective="100px") 80px
+								h1.small(data-z="true" data-z-perspective="500px") 500px
 							.split-item
 								h3
-									a href="#perspective" perspective
+									a(href="#perspective") perspective
 									small.param CSS length value, "none", or "inherit"
 								p
 									| Set distance from the viewer. Default: 
@@ -323,10 +323,10 @@ html lang="en"
 					.container.option.fade-option#fade
 						.split
 							.split-item.preview
-								h1.large data-z="true" data-z-layers="10" data-z-depth=".25em" data-z-fade="true" true
+								h1.large(data-z="true" data-z-layers="10" data-z-depth=".25em" data-z-fade="true") true
 							.split-item
 								h3
-									a href="#fade" fade
+									a(href="#fade") fade
 									small.param boolean
 								p
 									| Make the text fade away. Default: 
@@ -335,12 +335,12 @@ html lang="en"
 					.container.option.direction-option#direction
 						.split
 							.split-item.preview.vertical
-								h1.small data-z="true" data-z-depth=".5em" both
-								h1.small data-z="true" data-z-depth=".5em" data-z-direction="backwards" backwards
-								h1.small data-z="true" data-z-depth=".5em" data-z-direction="forwards" forwards
+								h1.small(data-z="true" data-z-depth=".5em") both
+								h1.small(data-z="true" data-z-depth=".5em" data-z-direction="backwards") backwards
+								h1.small(data-z="true" data-z-depth=".5em" data-z-direction="forwards") forwards
 							.split-item
 								h3
-									a href="#direction" direction
+									a(href="#direction") direction
 									small.param "both" | "backwards" | "forwards"
 								p
 									| The direction the effect is to be applied. Default: 
@@ -349,14 +349,14 @@ html lang="en"
 					.container.option.event-option#event
 						.split
 							.split-item.preview.vertical.static
-								h1.medium data-z="true" data-z-event="none" none
-								h1.medium data-z="true" data-z-event="pointer" pointer
-								h1.medium data-z="true" data-z-event="scroll" scroll
-								/ h1.medium data-z="true" data-z-event="scrollX" scrollX
-								/ h1.medium data-z="true" data-z-event="scrollY" scrollY
+								h1.medium(data-z="true" data-z-event="none") none
+								h1.medium(data-z="true" data-z-event="pointer") pointer
+								h1.medium(data-z="true" data-z-event="scroll") scroll
+								// h1.medium data-z="true" data-z-event="scrollX" scrollX
+								// h1.medium data-z="true" data-z-event="scrollY" scrollY
 							.split-item
 								h3
-									a href="#event" event
+									a(href="#event") event
 									small.param "none" | "pointer" | "scroll" | "scrollX" | "scrollY"
 								p
 									| Control text rotation with JavaScript. Default: 
@@ -378,8 +378,8 @@ html lang="en"
 					.container.option.event-rotation-option#eventRotation
 						.split
 							.split-item.preview.static
-								h1.small data-z="true" data-z-event="pointer" data-z-eventRotation="20deg" 10deg
-								h1.small data-z="true" data-z-event="pointer" data-z-eventRotation="60deg" 60deg
+								h1.small(data-z="true" data-z-event="pointer" data-z-eventRotation="20deg") 10deg
+								h1.small(data-z="true" data-z-event="pointer" data-z-eventRotation="60deg") 60deg
 							.split-item
 								h3
 									a href="#eventRotation" eventRotation
@@ -391,11 +391,11 @@ html lang="en"
 					.container.option.event-direction-option#eventDirection
 						.split
 							.split-item.preview.static.vertical
-								h1.medium data-z="true" data-z-event="pointer" default
-								h1.medium data-z="true" data-z-event="pointer" data-z-eventDirection="reverse" reverse
+								h1.medium(data-z="true" data-z-event="pointer") default
+								h1.medium(data-z="true" data-z-event="pointer" data-z-eventDirection="reverse") reverse
 							.split-item
 								h3
-									a href="#eventRotationDirection" eventDirection
+									a(href="#eventRotationDirection") eventDirection
 									small.param "default" | "reverse"
 								p
 									| With the <code class="light">event</code> option enabled, choose whether the rotation faces toward the target point (default) or away from it (reverse). Default: 
@@ -405,9 +405,9 @@ html lang="en"
 			.wrapper
 				.container &copy; 2021 Bennett Feely (<a href="https://twitter.com/bennettfeely">@bennettfeely</a>)
 		#fb-root
-		script async="true" defer="true" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=261257780581807" nonce="PHc3kpRj"
-		script src="js/ztext.min.js"
-		script src="js/clipboard.min.js"
-		script src="js/github.min.js"
-		script src="js/demo.min.js"
-		script src="js/examples.min.js"
+		script(async="true" defer="true" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=261257780581807" nonce="PHc3kpRj")
+		script(src="js/ztext.min.js")
+		script(src="js/clipboard.min.js")
+		script(src="js/github.min.js")
+		script(src="js/demo.min.js")
+		script(src="js/examples.min.js")

@@ -2,8 +2,9 @@
   "name": "ztext",
   "version": "1.0.1",
   "description": "Easy to implement, 3D typography for the web. Works with every font.",
-  "main": "gulpfile.js",
   "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,28 @@
   "bugs": {
     "url": "https://github.com/bennettfeely/ztext/issues"
   },
-  "homepage": "https://bennettfeely.com/ztext"
+  "homepage": "https://bennettfeely.com/ztext",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "browser-sync": "^3.0.2",
+    "browserslist": "^4.23.0",
+    "eslint": "^9.3.0",
+    "esm": "^3.2.25",
+    "globals": "^15.3.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-debug": "^5.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-size": "^5.0.0",
+    "gulp-slim": "^0.3.0",
+    "gulp-terser": "^2.1.0",
+    "pug": "^3.0.2",
+    "pug-lint": "^2.7.0",
+    "pump": "^3.0.0",
+    "sass": "^1.77.2"
+  }
 }
